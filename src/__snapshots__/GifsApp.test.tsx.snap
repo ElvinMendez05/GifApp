@@ -1,0 +1,66 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GifsApp > should make a snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="navbar"
+    >
+      <div
+        class="logo"
+      >
+        🖼️ 
+        <span>
+          GifApp
+        </span>
+      </div>
+      <nav>
+        <a
+          href="#"
+        >
+          🏠 Home
+        </a>
+      </nav>
+    </div>
+    <div
+      class="content-center"
+    >
+      <h1>
+        GifsApp
+      </h1>
+      <p>
+        Search and find out the perfect gif
+      </p>
+    </div>
+  </div>
+  <div>
+    <div
+      class="search-container"
+    >
+      <input
+        placeholder="Search your gifs"
+        type="text"
+        value=""
+      />
+      <button>
+         Search 
+      </button>
+    </div>
+  </div>
+  <div>
+    <div
+      class="previous-searches"
+    >
+      <h2>
+        previous searches
+      </h2>
+      <ul
+        class="previous-searches-list"
+      />
+    </div>
+  </div>
+  <div
+    class="gifs-container"
+  />
+</div>
+`;
