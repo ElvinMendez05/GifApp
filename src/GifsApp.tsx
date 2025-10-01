@@ -11,7 +11,7 @@ export const GifsApp = () => {
    return (
     <> 
          {/* Header and Navbar */}
-         <CustomHeader name={'GifsApp'} description={'Discoverd and share the perfect gif'}/>
+         <CustomHeader name={'GifsApp'} description={'Search and find out the perfect gif'}/>
          {/* Search */}  
           <SearchBar placeholder="Search your gifs" onQuery={handleSearch} />
          {/* previous searches */}
