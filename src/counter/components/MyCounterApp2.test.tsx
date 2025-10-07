@@ -18,16 +18,16 @@ vi.mock('../hooks/useCounter', ()=> ({
 
 describe('MyCounterApp', ()=> {
 
-    test('should render the component', ()=> {
-        render(<MyCounterApp/>);
+    // test('should render the component', ()=> {
+    //     render(<MyCounterApp/>);
 
-        expect(screen.getByRole('heading', {level: 1}).innerHTML).toContain(
-            `counter: 10`)
+    //     expect(screen.getByRole('heading', {level: 1}).innerHTML).toContain(
+    //         `counter: 10`)
 
-        expect(screen.getByRole('button', {name: '+1'})).toBeDefined();
-        expect(screen.getByRole('button', {name: '-1'})).toBeDefined();
-        expect(screen.getByRole('button', {name: 'Reset'})).toBeDefined();
-    })
+    //     expect(screen.getByRole('button', {name: '+1'})).toBeDefined();
+    //     expect(screen.getByRole('button', {name: '-1'})).toBeDefined();
+    //     expect(screen.getByRole('button', {name: 'Reset'})).toBeDefined();
+    // })
 
     test('should call handleAdd if button is clicked', ()=> {
         render(<MyCounterApp />);

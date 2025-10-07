@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 
 interface Props {
-  placeholder: string;
+  placeholder?: string;
   onQuery: (query: string) => void;
 }
 
-export const SearchBar = ({placeholder = 'Search', onQuery}: Props) => {
+export const SearchBar = ({placeholder = 'Search gifs', onQuery}: Props) => {
   
   const [query, setQuery] = useState('');
   //This is a useEffect
